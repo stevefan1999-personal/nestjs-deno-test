@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
+  },
+  "imports": {
+    "@apollo/server": "npm:@apollo/server@^4.10.5",
+    "@nestjs/apollo": "npm:@nestjs/apollo@^12.2.0",
+    "@nestjs/common": "npm:@nestjs/common@^10.3.10",
+    "@nestjs/core": "npm:@nestjs/core@^10.3.10",
+    "@nestjs/graphql": "npm:@nestjs/graphql@^12.2.0",
+    "@nestjs/mercurius": "npm:@nestjs/mercurius@^12.2.0",
+    "@nestjs/platform-express": "npm:@nestjs/platform-express@^10.3.10",
+    "@nestjs/platform-fastify": "npm:@nestjs/platform-fastify@^10.3.10",
+    "@nestjs/testing": "npm:@nestjs/testing@^10.3.10",
+    "@std/testing": "jsr:@std/testing@^0.225.3",
+    "graphql": "npm:graphql@^16.9.0",
+    "mercurius": "npm:mercurius@^14.1.0",
+    "supertest": "npm:supertest@^7.0.0"
+  },
+  "tasks": {
+    "test": "deno test -A"
+  }
+}
