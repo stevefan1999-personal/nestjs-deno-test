@@ -31,7 +31,7 @@ describe("Normal hello world test with Fastify", () => {
         });
 
         assertEquals(statusCode, 200);
-        // assertEquals(payload, "Hello World!");
+        assertEquals(payload, "Hello World!");
     });
 
     afterAll(async () => {
